@@ -1,17 +1,57 @@
-# flutter_shop_app
+# Flutter Shop App 🛒
 
-A new Flutter project.
+A modern Flutter shopping app with real product images, category filtering, cart, and wishlist features.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+| Home Screen | Cart Screen |
+|---|---|
+| ![Home](screenshots/screenshot1.png) | ![Cart](screenshots/screenshot2.png) |
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- 🏠 Product grid with real product images
+- 🔵 Category filters (Shoes, Clothing, Accessories, Bags)
+- 🛒 Add to cart with live counter badge
+- ❤️ Wishlist with toggle and counter badge
+- 💰 Cart total calculation
+- 📱 Clean Material 3 UI with blue theme
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## How to Run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/swethamahesh552/flutter-shop-app.git
+cd flutter-shop-app
+flutter pub get
+flutter run
+```
+
+## Tech Stack
+- Flutter
+- Dart
+- Material 3
+- Unsplash API (product images)
+
+## Project Structure
+lib/
+
+├── main.dart
+
+├── models/
+
+│   └── product_model.dart
+
+└── screens/
+
+├── home_screen.dart
+
+├── cart_screen.dart
+
+└── wishlist_page.dart
+## Roadmap
+- [ ] Add product detail screen
+- [ ] Add search functionality
+- [ ] Add local storage for cart
+- [ ] Add payment screen
+
+## Author
+Swetha — [github.com/swethamahesh552](https://github.com/swethamahesh552)
