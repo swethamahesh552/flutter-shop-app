@@ -71,4 +71,18 @@ final List<Product> products = [
     price: 1499,
     imageUrl: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400',
   ),
+  Product(
+  id: 9,
+  name: 'Sports Cap',
+  category: 'Accessories',
+  price: 399,
+  imageUrl: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400',
+),
+Product(
+  id: 10,
+  name: 'Leather Wallet',
+  category: 'Accessories',
+  price: 699,
+  imageUrl: 'https://images.unsplash.com/photo-1627123424574-724758594e93?w=400',
+),
 ];
