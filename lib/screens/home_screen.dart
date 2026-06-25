@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   right: 6, top: 6,
                   child: CircleAvatar(
                     radius: 8,
-                    backgroundColor: Colors.red,
+                    backgroundColor: Colors.orange,
                     child: Text('${wishlistItems.length}',
                         style: const TextStyle(fontSize: 10, color: Colors.white)),
                   ),
