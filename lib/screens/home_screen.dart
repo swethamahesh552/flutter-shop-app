@@ -237,6 +237,16 @@ class _HomeScreenState extends State<HomeScreen> {
               },
             ),
           ),
+          Container(
+  padding: const EdgeInsets.all(12),
+  color: Colors.blue.shade50,
+  child: const Center(
+    child: Text(
+      'Made with ❤️ by Swetha',
+      style: TextStyle(fontSize: 12, color: Colors.grey),
+    ),
+  ),
+),
         ],
       ),
     );
