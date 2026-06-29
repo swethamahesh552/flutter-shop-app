@@ -63,8 +63,11 @@ class CartScreen extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Text('Total:',
-                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                     const Text('Your cart is empty!',
+    style: TextStyle(fontSize: 18, color: Colors.grey)),
+const SizedBox(height: 8),
+const Text('Go add some products 🛒',
+    style: TextStyle(fontSize: 14, color: Colors.grey)),
                       Text('₹${total.toStringAsFixed(0)}',
                           style: const TextStyle(
                               fontSize: 18,
